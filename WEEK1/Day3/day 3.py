@@ -4,3 +4,5 @@ for num in number:
         print(f"The {num} is Even ")
     else:
         print(f"{num} is odd")
+
+
