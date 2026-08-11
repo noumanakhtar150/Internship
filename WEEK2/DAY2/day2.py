@@ -15,3 +15,10 @@ reversed=vip[::-1]
 
 print(reversed)
 
+area = float(input("Enter Area of triangle: "))
+width = float(input("Enter Width of triangle"))
+
+triangle = area * width
+
+print(triangle)
+
