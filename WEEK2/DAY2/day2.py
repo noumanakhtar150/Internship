@@ -21,4 +21,3 @@ width = float(input("Enter Width of triangle"))
 triangle = area * width
 
 print(triangle)
-
