@@ -23,15 +23,12 @@ class cinema:
         self.movies = [title("terminator"), title("John Wick"), title("Scarface")]
         self.screen = [screen(1), screen(2), screen(3)]
         self.price = [price(1500), price(3000), price(5000)]
-        self.row = []
-        self.seat= []
+        self.row = {}
+        self.seat= {}
     def updatePrice(self,newPrice,movieName):
         for movie in self.movies:
             if movie.title == movieName:
                 pass
-
-            
-
 
 
 print('Ticket Reserved')
