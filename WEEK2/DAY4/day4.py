@@ -1,35 +1,53 @@
-class title:
-    def __init__(self, title: str):
-        self.title = title
+# class title:
 
-class seat:
-    def __init__(self, seats: int):
-        self.seats = seats
+#     def __init__(self, title: str):
+#         self.title = title
 
-class row:
-    def __init__(self, row: int):
-        self.row = row
+# class seat:
 
-class screen:
-    def __init__(self, screen_num: int):
-        self.screen_num = screen_num
+#     def __init__(self, seats: int):
+#         self.seats = seats
 
-class price:
-    def __init__(self, price: float):
-        self.price = price
+# class row:
 
-class cinema:
-    def __init(self):
-        self.movies = [title("terminator"), title("John Wick"), title("Scarface")]
-        self.screen = [screen(1), screen(2), screen(3)]
-        self.price = [price(1500), price(3000), price(5000)]
-        self.row = {}
-        self.seat= {}
-    def updatePrice(self,newPrice,movieName):
-        for movie in self.movies:
-            if movie.title == movieName:
-                pass
+#     def __init__(self, row: int):
+#         self.row = row
+
+# class screen:
+
+#     def __init__(self, screen_num: int):
+#         self.screen_num = screen_num
+
+# class price:
+
+#     def __init__(self, price: float):
+#         self.price = price
+
+# class cinema:
+
+#     def __init(self):
+#         self.movies = [title("terminator"), title("John Wick"), title("Scarface")]
+#         self.screen = [screen(1), screen(2), screen(3)]
+#         self.price = [price(1500), price(3000), price(5000)]
+#         self.row = {}
+#         self.seat= {}
+
+class student:
+    def  __init__(self, name, father_name, roll_num, class_room):
+        self.name = name
+        self.father_name = father_name
+        self.roll_num = roll_num
+        self.class_room = class_room
+
+    def my_student(self):
+        print(self.name)
+        print(self.father_name)
+        print(self.class_room)
+        print(self.roll_num)
 
 
-print('Ticket Reserved')
+# def  __init__(self, name, father_name, roll_num, class_room):
+s1 = student("nouman","Akhtar sb",21,321)
+s2 = student("Dawood","Tariq sb",22,321)
 
+s2.my_student()
