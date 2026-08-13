@@ -38,7 +38,7 @@ class person:
         self.f_name = f_name
         self.cnic = cnic
 
-    def my_display(self):
+    def person(self):
         print(self.name, self.f_name, self.cnic,) 
 
 class student(person):
@@ -46,11 +46,11 @@ class student(person):
         super().__init__(name, f_name, cnic)
         self.department = department
 
-    def my_display(self):
+    def student(self):
         print(self.name, self.f_name, self.cnic, self.department)        
 
 p1 = person("Nouman", "Akhtar", 35202)
 s1 = student("Nouman", "Akhtar", 35202, "Computer Science")
 
-p1.my_display()
-s1.my_display()
+p1.person()
+s1.student()
