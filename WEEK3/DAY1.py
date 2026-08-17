@@ -4,13 +4,12 @@ class Vehicle:
         self.model = model
         self.year = year
 
-        def mov(self):
-            print("move")
 
 class Ship(Vehicle):
-        def sail(self):
-            print("sail")
-
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
 
 veh1 = Vehicle("BMW", "M8", 2022)
 ship1 = Ship("Yacht", "Yacht", 2026)
