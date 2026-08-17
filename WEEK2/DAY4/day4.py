@@ -39,7 +39,7 @@ class person:
         self.cnic = cnic
 
     def person(self):
-        print(self.name, self.f_name, self.cnic,) 
+        print(self.name, self.f_name, self.cnic) 
 
 class student(person):
     def __init__(self, name, f_name, cnic, department):
