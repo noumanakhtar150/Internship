@@ -6,7 +6,7 @@
 
 num = []
 
-for i in range(20):
+for i in range(21):
     num.append(i*2)
 
 print(num)
